@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 import spacy_streamlit
 
-models = ["en_core_web_sm", "en_core_web_trf", "en_core_web_lg"]
+models = ["en_core_web_sm", "en_core_web_trf"]
 
 st.title("EIT News")
 df = pd.read_csv('data/eit_news - EIT news.csv')
